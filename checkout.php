@@ -61,7 +61,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             //Parametros compra (obligatorio)
             name: "<?= $nombre_producto ?>",
             description: "<?= $descripcion ?>",
-            invoice: "FAC-1258",
+            invoice: "FAC-1263",
             currency: "cop",
             amount: "<?= $precio ?>",
             country: "co",
@@ -71,8 +71,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             external: "false",
 
             //Atributos opcionales
-            confirmation: 'https://b59b-2800-e2-bd80-eb5-927-50ef-19d2-599b.ngrok-free.app/epayco/confirmacion.php',
-            response: 'https://b59b-2800-e2-bd80-eb5-927-50ef-19d2-599b.ngrok-free.app/epayco/respuesta/respuesta.html',
+            confirmation: 'https://24fe-2800-e2-bd80-eb5-c8d3-6f2b-f35b-6f25.ngrok-free.app/epayco/confirmacion.php',
+            response: 'https://24fe-2800-e2-bd80-eb5-c8d3-6f2b-f35b-6f25.ngrok-free.app/epayco/respuesta/respuesta.html',
 
             //Atributos cliente
             name_billing: "<?= $_SESSION['nombre'] ?>",

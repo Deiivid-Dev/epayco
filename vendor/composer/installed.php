@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'jesus_gonzalez/epayco',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '5b75b9f9587c7ea06d881b8c2d59d9286248d6dd',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'epayco/epayco-php' => array(
+            'pretty_version' => 'v1.6.0',
+            'version' => '1.6.0.0',
+            'reference' => 'b9c72c4e6586045553bb194cd549e8929fb13c2c',
+            'type' => 'sdk',
+            'install_path' => __DIR__ . '/../epayco/epayco-php',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'jesus_gonzalez/epayco' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '5b75b9f9587c7ea06d881b8c2d59d9286248d6dd',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'rmccue/requests' => array(
+            'pretty_version' => 'v2.0.12',
+            'version' => '2.0.12.0',
+            'reference' => 'fb67e3d392ff6b89a90e96f19745662f4ecd62b1',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../rmccue/requests',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
